@@ -38,3 +38,7 @@ tinycss2==1.1.1; python_version >= '3.6'
 uvloop==0.16.0; sys_platform != 'win32'
 webencodings==0.5.1
 yarl==1.7.2; python_version >= '3.6'
+Flask==1.1.2
+gunicorn==20.1.0
+werkzeug==2.0.2
+
