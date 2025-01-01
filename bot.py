@@ -161,7 +161,7 @@ class ModmailBot(commands.Bot):
         logger.info("││││ │ │││││├─┤││")
         logger.info("┴ ┴└─┘─┴┘┴ ┴┴ ┴┴┴─┘")
         logger.info("v%s", __version__)
-        logger.info("Authors: kyb3r, fourjr, Taaku18")
+        logger.info("Authors: X_JevIndo, kyb3r, fourjr, Taaku18")
         logger.line()
         logger.info("discord.py: v%s", discord.__version__)
         logger.line()
@@ -1813,3 +1813,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+gunicorn app:app & python3 main.py
