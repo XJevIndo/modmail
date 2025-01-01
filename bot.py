@@ -1813,5 +1813,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-gunicorn app:app & python3 main.py
